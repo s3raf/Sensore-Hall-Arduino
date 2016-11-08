@@ -1,8 +1,10 @@
-/*
- HallSensor.h - Libreria per utilizzo sensori effetto Hall tipo ACS71x
- Created by Mauro Serafin, October 27, 2010. [Happy birthday my lovely son Tommaso!!!]
- v1.0.0 : 2010-10-27 : prima stesura
- */
+//
+//  HallSensor.h
+//  Libreria per utilizzo sensori effetto Hall tipo ACS71x
+//
+//  Created by Mauro Serafin on 2010-10-27.
+//  Copyright © 2016 SΞRΔF. All rights reserved.
+//
 
 #ifndef HALLSENSOR_H
 #define HALLSENSOR_H
