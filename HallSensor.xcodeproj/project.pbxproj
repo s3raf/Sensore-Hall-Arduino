@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		19A982391DC138E100FA34FF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19A982381DC138E100FA34FF /* main.cpp */; };
+		19A982431DC13D2800FA34FF /* HallSensor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19A982411DC13D2800FA34FF /* HallSensor.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		19A982351DC138E100FA34FF /* HallSensor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HallSensor; sourceTree = BUILT_PRODUCTS_DIR; };
 		19A982381DC138E100FA34FF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		19A982411DC13D2800FA34FF /* HallSensor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HallSensor.cpp; sourceTree = SOURCE_ROOT; };
+		19A982421DC13D2800FA34FF /* HallSensor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HallSensor.hpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		19A982371DC138E100FA34FF /* HallSensor */ = {
 			isa = PBXGroup;
 			children = (
+				19A982411DC13D2800FA34FF /* HallSensor.cpp */,
+				19A982421DC13D2800FA34FF /* HallSensor.hpp */,
 				19A982381DC138E100FA34FF /* main.cpp */,
 			);
 			path = HallSensor;
@@ -120,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19A982431DC13D2800FA34FF /* HallSensor.cpp in Sources */,
 				19A982391DC138E100FA34FF /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
