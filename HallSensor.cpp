@@ -11,7 +11,6 @@
 #include <stdlib.h>
 #include <iostream>
 
-// testo di prova
 using namespace std;
 
 // Costruttore; necessario anteporre Conversione::
