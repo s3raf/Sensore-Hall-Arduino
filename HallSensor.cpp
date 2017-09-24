@@ -5,7 +5,7 @@
 //  Created by Mauro Serafin on 2010-10-27.
 //  Copyright © 2016 SΞRΔF. All rights reserved.
 //
-//#include "Arduino.h"
+
 #include "HallSensor.hpp"
 #include <math.h>
 #include <stdlib.h>
@@ -48,4 +48,4 @@ float HallSensor::getVPP()
     
     return result;
 }
-
+// fine del programma
